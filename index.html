@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правовой анализ</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo"></div>
+            <nav class="nav mobile-hidden">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#service">Услуги</a></li>
+                    <li class="nav-list__item"><a href="#concept">Почему мы</a></li>
+                    <li class="nav-list__item"><a href="#faq">Ответы на вопросы</a></li>
+                </ul>
+            </nav>
+            <div class="btn btn-primary open-modal-btn  mobile-hidden">Оставить заявку</div>
+            <div class="burger-menu-btn desktop-hidden"></div>
+        </div>
+
+    </header>
+    <main class="main">
+        <section class="section_hero">
+            <div class="container">
+                <div class="hero__info">
+                    <h1 class="hero__title">
+                        Юридические услуги для IT-компаний
+                    </h1>
+                    <ul class="hero__list">
+                        <li class="hero__list-item">Консультации по маркировке рекламы</li>
+                        <li class="hero__list-item">Оценка правовых рисков и разработка документации
+                        </li>
+                        <li class="hero__list-item">Судебная защита от недобросовестной рекламы</li>
+                    </ul>
+                </div>
+                <form class="header__form" id="formHeader">
+                    <div class="header__form-title">Запросить стоимость</div>
+                    <input type="text" id="headerPhone" required>
+                    <small class="phone-error" style="color: red; display: none;">Введите корректный
+                        номер
+                        телефона.</small>
+                    <button class="btn btn-secondary" type="submit">Запросить стоимость</button>
+                </form>
+            </div>
+
+        </section>
+        <div class="tabs-content-wrapper">
+            <section class="section_tabs">
+                <div class="btn btn-tab btn-tab_open" data-tabs="1">Правовой анализ РК</div>
+                <div class="btn btn-tab " data-tabs="2">Правовой аудит на соответствие 152 ФЗ</div>
+            </section>
+
+            <section class="section_info-block">
+                <div class="container">
+                    <div class="tabs-content" data-tabs="1">
+                        <div class="info-block">
+                            <div class="info-block__title">
+                                С 1 сентября 2022 года вступила в силу <a target="_blank"
+                                    href="https://www.consultant.ru/document/cons_doc_LAW_58968/">статья 18.1
+                                    Федерального
+                                    закона «О рекламе»</a>, которая устанавливает обязательные требования по размещению
+                                рекламы
+                                в интернете.
+                            </div>
+
+                            <div class="info-block__text ">
+                                Все данные по интернет-рекламе теперь аккумулируются в Едином реестре интернет-рекламы
+                                (ЕРИР),
+                                который ведется РКН. В случае несоблюдения правил компаниям грозит до 500 тысяч рублей
+                                штрафа.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-content" data-tabs="2">
+                        <div class="info-block">
+                            <div class="info-block__title">
+                                С июля 2017 года существенно ужесточена ответственность за <br> нарушения при
+                                взаимодействии
+                                с
+                                персональными данными <br> физических лиц.
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="section_what">
+                <div class="container">
+                    <div class="tabs-content" data-tabs="1">
+                        <h2 class="section__title">
+                            Что такое маркировка интернет-рекламы
+                        </h2>
+                        <div class="section_what__text-top">
+                            Под маркировкой рекламы понимается выполнение необходимых требований по «идентификации»
+                            рекламных
+                            материалов и отчетности по ним.
+                        </div>
+                        <div class="what-steps">
+                            <h3 class="what-steps__title">
+                                Этапы маркировки рекламы
+                            </h3>
+                            <div class="what-steps__items">
+                                <div class="what-steps__item">
+                                    <div class="what-steps__item-count">
+                                        01
+                                    </div>
+                                    <div class="what-steps__item-text">
+                                        Внесение информации о рекламной кампании: описание креатива, данных о
+                                        заключенных договорах и участниках цепочки для получения токена (числового
+                                        идентификатора)
+                                    </div>
+                                </div>
+                                <div class="what-steps__item">
+                                    <div class="what-steps__item-count">
+                                        02
+                                    </div>
+                                    <div class="what-steps__item-text">
+                                        Оформление и опубликование креатива (указание токена, метки «реклама», сведений
+                                        о рекламодателе)
+                                    </div>
+                                </div>
+                                <div class="what-steps__item">
+                                    <div class="what-steps__item-count">
+                                        03
+                                    </div>
+                                    <div class="what-steps__item-text">
+                                        Отчетность по проведенной рекламной кампании (акты по показам и креативам)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-block">
+                            <div class="info-block__title">
+                                Маркировка не является единоразовым действием: соблюдение требований требуется как при
+                                запуске проекта, так и на дальнейших шагах его реализации.
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tabs-content" data-tabs="2">
+                        <h2 class="section__title">
+                            О чем говорит 152 ФЗ
+                        </h2>
+                        <div class="section_what__text-top">
+                            Основным направлением действия 152-ФЗ является защита личной информации физического лица от
+                            неразрешенного доступа к ней и предотвращение незаконного хранения и последующей обработки.
+
+                        </div>
+                        <div class="what-steps">
+
+                            <div class="what-steps__items">
+                                <div class="what-steps__item">
+                                    <div class="what-steps__item-count">
+                                        01
+                                    </div>
+                                    <div class="what-steps__item-text">
+                                        Персональные данные — любая информация, относящаяся прямо или косвенно к
+                                        конкретному физическому лицу (субъекту персональных данных).
+                                    </div>
+                                </div>
+                                <div class="what-steps__item">
+                                    <div class="what-steps__item-count">
+                                        02
+                                    </div>
+                                    <div class="what-steps__item-text">
+                                        Обработка персональных данных — любое действие (операция) или совокупность
+                                        действий (операций), совершаемых с использованием средств автоматизации или без
+                                        использования таких средств с персональными данными.
+
+                                    </div>
+                                </div>
+                                <div class="what-steps__item">
+                                    <div class="what-steps__item-count">
+                                        03
+                                    </div>
+                                    <div class="what-steps__item-text">
+                                        Обработка персональных данных осуществляется оператором, в роли которого
+                                        выступает государственный орган, муниципальный орган, юридическое или физическое
+                                        лицо.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-block">
+                            <div class="info-block__title">
+                                Последняя редакция 152 ФЗ содержит список нарушений, за которые оператор по обработке
+                                персональных данных привлекается Федеральной службой по надзору в сфере связи,
+                                информационных технологий и массовых коммуникаций (Роскомнадзором) к ответственности.
+                            </div>
+
+                            <div class="info-block__text ">
+                                Лица, виновные в нарушении требований закона «О персональных данных», несут гражданскую,
+                                уголовную, административную, дисциплинарную и иную, предусмотренную законодательством
+                                Российской Федерации, ответственность.
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="service" class="section_service">
+                <div class="container">
+                    <div class="tabs-content" data-tabs="1">
+                        <h2 class="section__title">
+                            Услуги юриста в сфере рекламы
+                        </h2>
+                        <div class="service-items">
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-man">
+                                </div>
+                                <div class="service-item__text">
+                                    Консультация юриста<br>
+                                    по рекламе
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-docs">
+                                </div>
+                                <div class="service-item__text">
+                                    Составление<br>
+                                    договора
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-polz">
+                                </div>
+                                <div class="service-item__text">
+                                    Пользовательское соглашение
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-law">
+                                </div>
+                                <div class="service-item__text">
+                                    Постоянное сопровождение <br>
+                                    проекта юристом
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-pech">
+                                </div>
+                                <div class="service-item__text">
+                                    Составление процессуального документа
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-hum">
+                                </div>
+                                <div class="service-item__text">
+                                    Представительство <br>
+                                    в суде
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-content" data-tabs="2">
+                        <h2 class="section__title">
+                            Мы предлагаем
+                        </h2>
+                        <div class="service-items">
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-man">
+                                </div>
+                                <div class="service-item__text">
+                                    Проведение аудита системы защиты персональных данных
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-docs">
+                                </div>
+                                <div class="service-item__text">
+                                    Разработку полного пакета организационно-распорядительной документации
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item__img-wrapper icon-polz">
+                                </div>
+                                <div class="service-item__text">
+                                    Проектирование <br> и организацию системы защиты персональных данных «с нуля»
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="concept" class="section_concept">
+            <div class="container">
+                <h2 class="section__title">
+                    Мы сформировали несколько принципов <br>и твердо их придерживаемся
+                </h2>
+                <div class="concept-items">
+                    <div class="concept-item">
+                        <div class="concept-item__title">
+                            90% работы берем на себя
+
+                        </div>
+                        <div class="concept-item__text">
+                            Мы берем максимум работы в свои руки, от вас необходима только базовая информация. Делаем
+                            все, чтобы вы минимально вовлекались в процесс.
+                        </div>
+                    </div>
+                    <div class="concept-item">
+                        <div class="concept-item__title">
+                            Соблюдаем NDA
+                        </div>
+                        <div class="concept-item__text">
+                            Мы подписываем NDA на первом этапе работы, никто не узнает о факте работы с нами. Те, кого
+                            вы увидите в презентациях или на сайте дали отдельное согласие на публикацию.
+                        </div>
+                    </div>
+                    <div class="concept-item">
+                        <div class="concept-item__title">
+                            Success fee
+                        </div>
+                        <div class="concept-item__text">
+                            Работаем по 100% постоплате. Вы платите только после оказания услуги.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_form">
+            <div class="container">
+                <h2 class="section_form__title">Оставьте заявку <br>на бесплатную консультацию</h2>
+                <form class="form-contact" id="contactForm">
+                    <div>
+                        <label for="ContactFormName">Имя:</label>
+                        <input type="text" id="ContactFormName" name="name" placeholder="Имя" required>
+                    </div>
+                    <div>
+                        <label for="ContactFormEmail">Email:</label>
+                        <input type="email" id="ContactFormEmail" name="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label for="ContactFormPhone">Телефон:</label>
+                        <input type="tel" id="ContactFormPhone" name="phone" required>
+                        <small class="phone-error" style="color: red; display: none;">Введите корректный
+                            номер
+                            телефона.</small>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" type="submit">Оставить заявку</button>
+                    </div>
+                    <p class="politics">Я согласен с обработкой своих персональных данных в соответствии с <a
+                            target="_blank" href="#">Политикой обработки персональных данных</a> и <a target="_blank"
+                            href="#">Публичной офертой</a></p>
+                </form>
+            </div>
+
+        </section>
+        <section id="faq" class="section_faq">
+            <div class="container">
+                <h2 class="section__title">Ответы на вопросы</h2>
+                <div class="faq-section">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer(1)">
+                            Какие услуги вы оказываете?
+                            <span class="arrow"></span>
+                        </div>
+                        <div class="faq-answer" id="answer1">
+                            <p>Мы проводим аудит рекламных кампаний и процессов обработки персональных данных
+                                IT-компаний на соответствие требованиям 152-ФЗ. Готовим и внедряем всю необходимую
+                                юридическую документацию, консультируем по вопросам защиты персональных данных, помогаем
+                                с регистрацией в Роскомнадзоре, проверяем рекламные материалы на соответствие
+                                законодательству работы с персональными данными.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer(2)">
+                            Чем подтверждается ваш профессионализм?
+                            <span class="arrow"></span>
+                        </div>
+                        <div class="faq-answer" id="answer2">
+                            <p>Наша компетентность подтверждается большим опытом работы с IT-компаниями, наличием в
+                                штате квалифицированных юристов и технических специалистов, а также успешными проектами
+                                и отзывами клиентов. Мы сопровождаем компании при проверках Роскомнадзора и других
+                                надзорных органов, помогая минимизировать риски.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer(3)">
+                            Какие гарантии качества выполняемых работ?
+                            <span class="arrow"></span>
+                        </div>
+                        <div class="faq-answer" id="answer3">
+                            <p>Мы предоставляем официальные заключения по результатам аудита, сопровождаем компании при
+                                проверках контролирующих органов, обновляем подготовленные документы в случае изменений
+                                законодательства и несем ответственность за корректность рекомендаций. Все работы
+                                выполняются в строгом соответствии с действующими нормами и учитывают специфику бизнеса
+                                клиента.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer(4)">
+                            Чем подтверждается ваш профессионализм?
+                            <span class="arrow"></span>
+                        </div>
+                        <div class="faq-answer" id="answer4">
+                            <p>Наше главное преимущество – специализация на IT-бизнесе и цифровом маркетинге. Мы
+                                предлагаем не просто юридические консультации, а комплексное сопровождение: от аудита до
+                                внедрения решений. Работаем дистанционно по всей России, подстраиваемся под задачи
+                                клиента и помогаем минимизировать юридические риски в рекламе и обработке данных.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo"></div>
+                <div class="footer__nav-container">
+                    <div class="footer__nav-item">
+                        <div class="footer__nav-item__title">
+                            Навигация
+                        </div>
+                        <ul class="footer__nav-item__list">
+                            <li class="footer__nav-item__list__item"><a href="#service">Услуги</a></li>
+                            <li class="footer__nav-item__list__item"><a href="#concept">Почему мы</a></li>
+                            <li class="footer__nav-item__list__item"><a href="#faq">Ответы на вопросы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-item">
+                        <div class="footer__nav-item__title">
+                            Контакты
+                        </div>
+                        <ul class="footer__nav-item__list">
+                            <li class="footer__nav-item__list__item"><a href="tel:+74994502708">+7 (499) 450-27-08</a></li>
+                            <li class="footer__nav-item__list__item"><a href="mailto:info@it-consultants.ru">info@it-consultants.ru</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer__nav-item">
+                        <div class="footer__nav-item__title">
+                            Офис
+                        </div>
+                        <ul class="footer__nav-item__list">
+                            <li class="footer__nav-item__list__item">
+                                115093, г. Москва,<br>
+                                ул. Люсиновская 36, стр.2, <br>4 подъезд, 2 этаж, ком. 204/2
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="btn btn-primary open-modal-btn">Оставить заявку</div>
+        </div>
+    </footer>
+    <div id="mobile-menu" class="modal hidden">
+        <div class="modal-content">
+            <div class="header__logo"></div>
+            <span class="close-modal"></span>
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#service">Услуги</a></li>
+                <li class="nav-list__item"><a href="#concept">Почему мы</a></li>
+                <li class="nav-list__item"><a href="#faq">Ответы на вопросы</a></li>
+            </ul>
+            <div class="btn btn-secondary open-modal-btn">Оставить заявку</div>
+        </div>
+    </div>
+    <div id="modalForm" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal"></span>
+            <div class="form__title">Оставьте заявку <br> на бесплатную консультацию</div>
+            <form class="form-modal" id="modalContactForm">
+                <div>
+                    <label for="ModalContactFormName">Имя:</label>
+                    <input type="text" id="ModalContactFormName" name="name" placeholder="Имя" required>
+                </div>
+                <div>
+                    <label for="ModalContactFormEmail">Email:</label>
+                    <input type="email" id="ModalContactFormEmail" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="ModalContactFormPhone">Телефон:</label>
+                    <input type="tel" id="ModalContactFormPhone" name="phone" required>
+                    <small class="phone-error" style="color: red; display: none;">Введите корректный номер телефона.</small>
+                </div>
+                <div>
+                    <button class="btn btn-primary" type="submit">Оставить заявку</button>
+                </div>
+                <p class="politics">Я согласен с обработкой своих персональных данных в соответствии с <a target="_blank" href="#">Политикой обработки персональных данных</a> и <a target="_blank" href="#">Публичной офертой</a></p>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="./scripts/tabs.js"></script>
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/forms.js"></script>
+    <script src="./scripts/faq.js"></script>
+</body>
+
+</html>
