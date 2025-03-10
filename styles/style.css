@@ -539,7 +539,9 @@ input:focus {
     flex-direction: column;
     gap: 8px;
 }
-
+.form-contact .btn {
+    color: var(--color-grey);
+}
 .form-contact label {
     position: absolute;
     opacity: 0;
