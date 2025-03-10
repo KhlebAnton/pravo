@@ -822,6 +822,7 @@ input:focus {
         line-height: 18px;
     }
     .footer,
+    .section_concept,
     .section_faq,
     .section_form,
     .section_service,
