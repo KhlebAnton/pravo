@@ -49,6 +49,8 @@ button {
     border: 0;
     background-color: inherit;
     font-family: 'Liter', Arial, Helvetica, sans-serif;
+    color: inherit;
+    font-weight: 400;
 }
 
 input {
