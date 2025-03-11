@@ -762,6 +762,19 @@ input:focus {
     justify-content: center;
     
 }
+.error_wrapper {
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+}
+.error__code {
+    font-size: 120px;
+    font-weight: bold;
+}
+.error__text a {
+    text-decoration: underline;
+}
 
 @media (max-width:1100px) {
     .mobile-hidden {
@@ -934,7 +947,10 @@ font-size: 20px;
     br {
         display: none;
     }
-   
+    .error_wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
     .btn {
         border-radius: 8px;
         max-width: none;

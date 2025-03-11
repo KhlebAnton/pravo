@@ -18,21 +18,25 @@ const menuNavItem = mobileMenu.querySelectorAll('.nav-list__item');
 menuNavItem.forEach((btn)=> {
     btn.addEventListener('click', ()=>{
         mobileMenu.classList.add('hidden')
+        document.body.style.overflow = ''
     })
 })
 openMenuBtn.addEventListener('click', () => {
-    mobileMenu.classList.remove('hidden')
+    mobileMenu.classList.remove('hidden');
+    document.body.style.overflow = 'hidden'
 });
 
 
 
 closeMenuButton.addEventListener('click', () => {
-    mobileMenu.classList.add('hidden')
+    mobileMenu.classList.add('hidden');
+    document.body.style.overflow = ''
 });
 
 
 window.addEventListener('click', (event) => {
     if (event.target === mobileMenu) {
         mobileMenu.classList.add('hidden')
+        document.body.style.overflow = ''
     }
 });
